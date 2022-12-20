@@ -1,0 +1,14 @@
+.container{
+    justify-content: center;
+    display: contents;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    
+  }
+  td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
