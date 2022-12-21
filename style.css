@@ -1,6 +1,6 @@
 .container{
     justify-content: center;
-    display: contents;
+    display: grid;
     align-items: center;
 }
 table {
