@@ -1,17 +1,19 @@
 const form = document.getElementById('form');
-const player1 = document.getElementById('player1');
-const player2 = document.getElementById('player2');
+
 // function to add player names to divs
 function playernames() {
-  const player1Id = document.getElementById('player1-id').value;
-  const player2Id = document.getElementById('player2-id').value;
+  let player1Id = document.getElementById('player1-id').value;
+  let player2Id = document.getElementById('player2-id').value;
+  const player1 = document.getElementById('player1');
+const player2 = document.getElementById('player2');
 
   player1.innerHTML = player1Id;
   player2.innerHTML = player2Id;
+  
 }
 
 // eventlistener for form
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e ,i) => {
   e.preventDefault();
   playernames();
 });
