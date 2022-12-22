@@ -7,14 +7,14 @@ function playernames() {
   const player1 = document.getElementById('player1');
 const player2 = document.getElementById('player2');
 
-  player1.innerHTML = player1Id;
-  player2.innerHTML = player2Id;
-  
-}
 
+  player1.innerHTML = player1Id;
+   player2.innerHTML = player2Id;
+}
 // eventlistener for form
 form.addEventListener('submit', (e ,i) => {
   e.preventDefault();
+  
   playernames();
 });
 
@@ -29,6 +29,7 @@ const createboard = () => {
 const playerfactory = (name, naughtORcross) => {
 const playerReal1.name = player1.innerHTML
 const playerReal1.naughtORcross = "O"
+
 const playerReal2.name = player2.innerHTML
 const playerReal2.naughtORcross = "X"
 const 

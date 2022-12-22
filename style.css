@@ -1,14 +1,13 @@
-.container{
-    justify-content: center;
-    display: grid;
-    align-items: center;
+.container {
+  justify-content: center;
+  display: grid;
+  align-items: center;
 }
 table {
-    border-collapse: collapse;
-    
-  }
-  td {
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-  }
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
