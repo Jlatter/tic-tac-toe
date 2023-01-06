@@ -10,7 +10,6 @@ const play1score = document.getElementById('p1score');
 const play2score = document.getElementById('p2score');
 const round = document.getElementById('round');
 const aiCheckbox = document.getElementById('ai');
-const availableNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
 // eslint-disable-next-line prefer-const
 let isChecked = aiCheckbox.checked;
@@ -78,8 +77,6 @@ function checkwin() {
         play1score.innerHTML = num;
         roundNum = parseInt(roundNum) + 1;
         round.innerHTML = `Round ${roundNum}`;
-
-        console.log(currentPlayer.naughtOrcross);
       } else {
         sum = parseInt(sum) + 1;
         play2score.innerHTML = sum;
